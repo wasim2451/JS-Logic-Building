@@ -17,18 +17,6 @@ const evenOdd = (number) => {
 // Minimum Number among three Numbers
 
 function getMin(a, b, c) {
-    // let min=-99999999;
-    // if(a<b){
-    //     if(a<c){
-    //         min=a;
-    //     }
-    // }else if(b<c){
-    //     min=b;
-    // }else{
-    //     min=c;
-    // }
-    // console.log("Minimum is ",min);
-
     let min = 0;
     if (a < b && a < c) {
         min = a;
@@ -70,5 +58,5 @@ function reverseString2(str){
         throw new Error("Input should be a String !")
     }
 }
-reverseString2("HelloWorld");
-reverseString2(11);
+// reverseString2("HelloWorld");
+// reverseString2(11);
